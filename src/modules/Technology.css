@@ -1,0 +1,67 @@
+.background-technology {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.technology-p {
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.technology-btn-div {
+  position: absolute;
+  right: 85%;
+  top: 40%;
+}
+
+.technology-btn {
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  font-size: 28px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.technology-btn:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+
+.technology-img {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+.main-technology-div {
+  position: absolute;
+  bottom: 35%;
+  margin-left: 15%;
+}
+
+.main-technology-div h2 {
+  color: gray;
+}
+
+.main-technology-div p {
+  color: gray;
+}
+
+/*# sourceMappingURL=Technology.css.map */
